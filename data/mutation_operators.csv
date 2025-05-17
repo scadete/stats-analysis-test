@@ -1,0 +1,44 @@
+Operator,Full Name,Description
+AODS,Arithmetic Operator Deletion Substitution,Replaces arithmetic operators with nothing (removes the operator).
+AODU,Arithmetic Operator Deletion Unary,Removes an operator by replacing it with a unary operation.
+AOIS,Arithmetic Operator Insertion Substitution,Inserts an arithmetic operator.
+AOIU,Arithmetic Operator Insertion Unary,Inserts a unary arithmetic operator.
+AORB,Arithmetic Operator Replacement by Other,"Replaces an arithmetic operator with another one (e.g., + to -)."
+AORS,Arithmetic Operator Replacement by Similar,"Replaces an operator with a similar one, like changing * to /."
+ASRS,Arithmetic Statement Removal,Removes an arithmetic statement entirely.
+CDL,Conditional Deletion,"Deletes a conditional (if, switch) statement or part of the condition."
+COD,Conditional Operator Deletion,"Deletes a conditional operator (e.g., == or <)."
+COI,Conditional Operator Insertion,Inserts a conditional operator.
+COR,Conditional Operator Replacement,Replaces a conditional operator with another one.
+EAM,Equivalent Expression Mutation,Replaces an expression with an equivalent but syntactically different expression.
+EMM,Expression Modification Mutation,Modifies an expression by changing its operator or operands.
+EOC,Expression Operator Change,"Changes the operator within an expression (e.g., + to *)."
+IHI,Insertion of Hardcoded Values,Inserts hardcoded values into the code.
+IOD,Insertion of Data Mutation,Introduces data manipulations in expressions or assignments.
+IOP,Insertion of Operation,"Adds a new operation (e.g., an additional arithmetic operation)."
+IOR,Insertion of Redundant Operations,"Inserts operations that don't affect the final output (e.g., x = x + 0)."
+IPC,Insertion of Print Statement,Inserts print statements to track flow during execution.
+ISD,Insertion of Silent Dead Code,Adds dead code that does not affect the program's state or output.
+ISI,Insertion of Silent Instructions,Inserts instructions that do not impact execution or outcome.
+JDC,Jump Deletion,"Removes jump statements (e.g., goto, continue)."
+JID,Jump Insertion/Deletion,"Adds or removes jump statements (like break, continue)."
+JSD,Jump Statement Deletion,Removes specific jump statements.
+JSI,Jump Statement Insertion,"Inserts jump statements like break, continue."
+JTD,Jump Type Deletion,"Deletes a specific type of jump, such as return."
+JTI,Jump Type Insertion,"Inserts a specific type of jump, like continue or return."
+LOD,Loop Operator Deletion,"Deletes loop operators (e.g., for, while)."
+LOI,Loop Operator Insertion,Inserts loop operators into a section of the program.
+LOR,Loop Operator Replacement,"Replaces loop operators with different types (e.g., for to while)."
+OAN,Operator Assignment Mutation,"Mutates assignment operators like = to +=, -=."
+ODL,Operand Deletion,Removes operands from expressions or assignments.
+OMD,Operand Mutation,Changes the operands of expressions or assignments.
+OMR,Operand Repositioning,Repositions operands within an expression.
+PCD,Parameter Change,"Modifies function parameters, possibly in terms of types or values."
+PCI,Parameter Count Change,Changes the number of parameters in a function call.
+PMD,Parameter Mutation,Alters a function's parameter list.
+PNC,Parameter Negation,Negates parameters in function calls or assignments.
+PRV,Predicate Replacement,Replaces predicates or boolean expressions with others.
+ROR,Return Operator Replacement,Replaces return operators or statements with another type.
+SDL,Statement Deletion,Deletes statements in the program.
+SOR,Statement Operator Replacement,Replaces operators in statements.
+VDL,Variable Deletion,Deletes variables from the code.
